@@ -27,7 +27,7 @@ body{
     height: 400px;
 }
 
-#name{
+#tittle{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
@@ -36,4 +36,13 @@ body{
 
  .container{
     display: flex;
+ }
+
+ .works h2, h3, h4, dd{
+    margin: 20px;
+ }
+
+ .activity-list{
+    list-style-type: disc;
+    list-style-position: outside;  
  }
