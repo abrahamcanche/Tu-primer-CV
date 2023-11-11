@@ -21,7 +21,8 @@ body{
     border: solid;
 }
 
-.container{
+#profile-description{
+    flex: 1;
     width: 300px;
     height: 400px;
 }
@@ -31,4 +32,8 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin: 50px 30px;
+ }
+
+ .container{
+    display: flex;
  }
