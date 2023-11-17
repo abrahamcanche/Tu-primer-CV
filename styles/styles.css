@@ -17,8 +17,6 @@
 #image-profile {
     width: 300px;
     height: 300px;
-    background-image:url(https://scontent.fcjs3-2.fna.fbcdn.net/v/t39.30808-6/278020342_287351220236757_1237295401883111838_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEM3LjxUXz-OE71CstVCrFWFWVGIQxW6Q8VZUYhDFbpDx77R3_nFBjNlRgdE4NbnZ3wDnEKr8qcVlCVslqbmsu1&_nc_ohc=cAsfVpJy4dsAX-JYbHi&_nc_ht=scontent.fcjs3-2.fna&oh=00_AfB7u-uWt9jI_ZDf3SPIFXmNV-0eZwJi_VdEoGoZaf67cw&oe=65549067);
-    background-size: cover;
     border-radius: 50%;
     border: solid;
 }
@@ -46,7 +44,7 @@ header{
 
 .tittle{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
     margin: auto;
     text-align: center;
@@ -77,6 +75,13 @@ header{
     text-decoration: none;
  }
 
+ .box li a{
+    color: black;
+    font-size: 16px;
+    margin: 20px 0px 20px 20px;
+    width: 300px;
+ }
+
 button{
     background-color: #C0C9D4;
     transition-duration: 1s;
@@ -89,14 +94,14 @@ button{
     transition-duration: 2s;
  }
 
- button h2{
-    font-size: 24px;
+.box h2{
+    font-size: 22px;
  }
 
- button h3{
+ .box h3{
     font-size: 18.72px;
  }
 
- button li{
+ .box li{
     font-size: 16px;
  }
